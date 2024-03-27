@@ -12,3 +12,4 @@ C:\Users\Clément\Desktop\Swan\isitech\algo\tp2\obj\Debug\net8.0\refint\tp2.dll
 C:\Users\Clément\Desktop\Swan\isitech\algo\tp2\obj\Debug\net8.0\tp2.pdb
 C:\Users\Clément\Desktop\Swan\isitech\algo\tp2\obj\Debug\net8.0\tp2.genruntimeconfig.cache
 C:\Users\Clément\Desktop\Swan\isitech\algo\tp2\obj\Debug\net8.0\ref\tp2.dll
+C:\Users\Clément\Desktop\Swan\isitech\algo\tp2\obj\Debug\net8.0\tp2.sourcelink.json
