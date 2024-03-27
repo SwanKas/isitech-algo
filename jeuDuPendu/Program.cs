@@ -21,8 +21,7 @@ class Program
         while (tryRemaining > 0){
             Console.Clear();
             displayHangMan(tryRemaining);
-            Console.WriteLine("Nombre de tentatives restantes: " + tryRemaining);
-            Console.WriteLine("Nombre de tentatives restantes: " + tryRemaining.ToString());
+            Console.WriteLine($"Nombre de tentatives restantes: {tryRemaining}");
             Console.WriteLine("Joueur 2 le mot a trouver ressemble a ca " + string.Concat(wordHidden));
             Console.WriteLine("Joueur 2 donner une lettre:");
             string inputPlayer2 = Console.ReadLine().ToUpper();

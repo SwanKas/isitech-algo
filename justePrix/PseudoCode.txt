@@ -1,0 +1,27 @@
+Cleaar console
+
+Déclarer rand comme une nouvelle instance de la classe Random
+Déclarer limit comme 500
+Générer un nombre aléatoire entre 0 et la variable limit, stocker dans randInt
+Déclarer numberFound comme faux
+
+Tant que numberFound est faux, faire:
+    Afficher "Entrer un nombre compris entre 0 et limit :"
+    Lire la reponse de l'utilsateur et l'enregistrer dans la variable input depuis la console
+
+    Si input peut être converti en entier, alors:
+        Convertir input en entier, stocker dans inputPlayer
+
+        Si inputPlayer est plus grand que randInt, alors:
+            Afficher "Le nombre est plus petit."
+
+        Sinon, si inputPlayer est plus petit que randInt, alors:
+            Afficher "Le nombre est plus grand."
+
+        Sinon:
+            Afficher "Félicitations ! Vous avez deviné le bon nombre : randInt"
+            Assigner vrai à numberFound
+
+    Sinon:
+        Afficher "Entrer un nombre valide."
+

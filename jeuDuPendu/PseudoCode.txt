@@ -1,0 +1,66 @@
+Le jeu du pendu:
+
+Début du programme
+    Afficher "Joueur 1, veuillez entrer le mot pour le jeu du pendu :"
+    Déclarer une variable word comme chaîne de caractères et initialiser a null
+
+    Tant que true
+        Lire la touche entrée par l'utilisateur
+        Si la touche est entrée
+            Sortir de la boucle
+        Sinon
+            Ajouter la touche a la variable word
+        Fin Si
+    Fin Tant que
+
+    Déclarer un tableau wordHidden de caractères de la même longueur que word et initialiser tous les éléments a '_'
+
+    Déclarer une variable tryRemaining et l'initialiser a 9
+
+    Tant que tryRemaining est supérieur a 0
+        Clear console
+        Appeler la fonction displayHangMan avec tryRemaining comme argument
+        Afficher "Nombre de tentatives restantes : " suivi de tryRemaining
+        Afficher "Joueur 2, le mot a trouver ressemble a : " suivi de la concaténation des éléments de wordHidden
+        Afficher "Joueur 2, veuillez donner une lettre :"
+        Lire l'entrée de l'utilisateur dans la variable inputPlayer2 et la convertir en majuscules
+
+        Si la longueur de inputPlayer2 n'est pas égale a 1 OU le premier caractère de inputPlayer2 n'est pas une lettre
+            Afficher "Veuillez entrer une seule lettre valide."
+            Continuer a la prochaine itération de la boucle
+        Fin Si
+
+        Déclarer une variable guess et la définir comme le premier caractère de inputPlayer2
+
+        Déclarer une variable wordFounded et l'initialiser a false
+
+        Pour chaque indice i allant de 0 a la longueur de word exclusivement
+            Si le caractère a l'indice i dans word, en majuscules, est égal a guess
+                Affecter le caractère a l"indice i de wordHidden avec le caractère correspondant de word
+                Mettre wordFounded a true
+            Fin Si
+        Fin Pour
+
+        Si wordFounded est false
+            Décrémenter tryRemaining
+        Fin Si
+
+        Si la concaténation des éléments de wordHidden est égale a word
+            Clear console
+            Afficher "Félicitations ! Vous avez deviné le mot : " suivi de word
+            Sortir du programme
+        Fin Si
+    Fin Tant que
+
+    Clear console
+    Appeler la fonction displayHangMan avec tryRemaining comme argument
+    Afficher "Désolé, vous avez perdu. Le mot était : " suivi de word
+Fin du programme
+
+Fonction displayHangMan prenant un argument tryRemaining
+    Déclarer un tableau hangman contenant les lignes de l"image du pendu
+
+    Pour chaque ligne dans hangman
+        Afficher la ligne
+    Fin Pour
+Fin de la fonction displayHangMan

@@ -1,0 +1,15 @@
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.AssemblyInfoInputs.cache
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.AssemblyInfo.cs
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.csproj.CoreCompileInputs.cache
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.sourcelink.json
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\bin\Debug\net8.0\justePrix.exe
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\bin\Debug\net8.0\justePrix.deps.json
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\bin\Debug\net8.0\justePrix.runtimeconfig.json
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\bin\Debug\net8.0\justePrix.dll
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\bin\Debug\net8.0\justePrix.pdb
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.dll
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\refint\justePrix.dll
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.pdb
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\justePrix.genruntimeconfig.cache
+C:\Users\Clément\Desktop\Swan\isitech\algo\justePrix\obj\Debug\net8.0\ref\justePrix.dll

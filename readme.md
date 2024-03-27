@@ -2,5 +2,5 @@
 
 
 Creation d'un projet C Sharp
-`dotnet new console --use-program-main -o consoleProject`
+`dotnet new console --use-program-main -o NOM_DU_DOSSIER`
 
